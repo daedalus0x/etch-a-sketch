@@ -1,0 +1,26 @@
+#container {
+  display: grid;
+  grid-template-columns: repeat(16, [col-start] 1fr);
+  grid-template-rows: repeat(16, [col-start] 1fr);
+  background-color: lightblue;
+  width: 960px;
+  margin: auto;
+}
+
+#container div {
+  padding: 0;
+  border: 1px solid black;
+  width: 56px;
+  height: 56px;
+  margin: auto;
+}
+
+body {
+  text-align: center;
+}
+
+#clear-button {
+  margin: 20px;
+  width: 200px;
+  height: 40px;
+}
